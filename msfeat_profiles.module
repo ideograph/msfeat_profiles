@@ -1,0 +1,12 @@
+<?php
+
+include_once('msfeat_profiles.features.inc');
+
+
+/**
+ * Implements hook_init().
+ */
+function msfeat_profiles_init() {
+  // Add the CSS for this feature.
+  drupal_add_css(drupal_get_path('module', 'msfeat_profiles') . '/msfeat_profiles.css');
+}

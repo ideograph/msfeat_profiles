@@ -1,0 +1,36 @@
+/**
+ * CSS Styles for msfeat_profiles feature.
+ */
+ 
+ .view-profiles .item {
+  margin-bottom:3em;
+}
+.view-profiles .item.first {
+  margin-top: 3em;
+}
+
+.view-profiles .image-left {
+  margin: 0;
+}
+.view-profiles .profile-details {
+  margin-left:165px;
+}
+
+.view-profiles h2.name {
+  font-size:1.2em;
+  font-weight:bold;
+  margin:0;
+}
+.view-profiles h3.job-title {
+  font-size:1em;
+  color:#94a3ad;
+  margin-bottom:1em;
+}
+
+.profile-sort .views-field-title {
+ font-weight:bold;  
+}
+#draggableview_profiles_1 tr.draggable.odd  {
+  background: #efefef;
+  padding:5px 5px 5px 0;
+}
